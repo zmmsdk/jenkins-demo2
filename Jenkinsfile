@@ -2,7 +2,7 @@
 pipeline {
    agent any
        tools {
-        nodejs 'NodeJS 11.5.0'
+        nodejs 'NodeJS 15.5.1'
         // gradle "gradle"
     }
     // 指定一个小时的全局执行超时，之后Jenkins将中止Pipeline运行
